@@ -1,0 +1,127 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    background-color: #3498DB;
+   
+}
+.box{
+    background-color: #3498DB;
+   
+}
+body{
+
+    background-color: #3498DB;
+   
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+}
+.container{
+   
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+   color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.input-filed{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    color: #fff;
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+   
+    padding: 0 0 0 45px;
+    background: rgb(255, 255,255,0.4);
+    box-shadow: 1px 5px 7px 1px rgb(0, 0,0,0.2);
+    cursor: pointer;
+    margin-left: 50px;
+    
+}
+
+
+i{
+    color: #fff;
+    position: relative;
+    margin-top: -31px;
+    left: 70px;
+  
+}
+
+.submit{
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 87%;
+    background: rgb(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    margin-left: 50px;
+}
+.submit:hover{
+
+    box-shadow: 1px 5px 7px 1px rgb(0, 0,0,0.6) ;
+}
+.bottom{
+
+    font-size: small;
+    color: #fff;
+  
+    
+
+}
+
+
+.right{
+
+    font-size: small;
+    color: #fff;
+   
+   
+}
+.JKL{
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+
+

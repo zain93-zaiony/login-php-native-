@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
+    <title>Document | Login</title>
+</head>
+<body>
+    
+        <div class="box"> 
+
+        <form action="login.php" method="post">
+            <?php if(isset($_GET['error'])) { ?>
+                <center><p class="JKL"><?php echo $_GET['error'];?> </p></center>
+                <?php }?>
+            <div class="container" >
+              
+                <div class="top-header">
+                    <span> have an Acount?</span>
+                    <header> Login </header>
+                </div>
+           
+                <div class="input-filed">
+                    <input type="text" name="uname" class="input" placeholder="username" > 
+                  <i class="glyphicon glyphicon-user" id="nm"></i>
+                </div>
+               <br>
+               <br>
+         
+                <div class="input-filed">
+                    <input type="password" name="password" class="input" placeholder="password" >
+                    <i class="glyphicon glyphicon-lock" id="nm"></i>
+                </div>
+                
+             
+                <br>
+                <br>
+                <div class="input-filed">
+                    <input type="submit" class="submit" value="Login">
+                </div>
+                <br>
+                
+               <center>
+                <div class="bottom">
+                    <input type="checkbox" id="check">
+                    <label for="check"> Remember Me</label>
+                </div>
+                <div class="right">
+                    <label><a href="#"> forgot password? </a></label>
+                </div>
+            </center>
+            </div>
+       
+
+        </div>
+        </form>
+
+</body>
+</html>
